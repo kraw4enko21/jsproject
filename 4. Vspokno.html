@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="bootstrap.css">
+	<link rel="stylesheet" href="style4.css">
+</head>
+<body>
+	<h1 class="mb-4">Модальное окно</h1>
+	
+	<button class="btn btn-outline-primary md-1 " data-modal-button="modal-1" type="button">
+		Откріть модельное окно №1		
+	</button>
+
+	<button class="btn btn-outline-primary md-1" data-modal-button="modal-2" type="button">
+		Откріть модельное окно №2		
+	</button>
+	<button class="btn btn-outline-primary md-1" data-modal-button="modal-3" type="button">
+		Откріть модельное окно №3		
+	</button>
+	<div id="modal-1" data-modal class="fade-block hidden">
+		<div class="modal-window">
+			<div class="card">
+				<div class="card-header">
+					Модальное окно №1
+				</div>
+				<div class="card-body">
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, maiores. Veniam voluptatum accusantium iusto recusandae ipsa quae deleniti officia, eligendi dolorum earum incidunt, amet ratione a! Eaque, perferendis laboriosam deserunt!</p>
+				</div>
+				<button class="btn-dark" data-modal-close type="button">
+					Закрыть окно
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<div id="modal-2" data-modal class="fade-block hidden">
+		<div class="modal-window">
+			<div class="card">
+				<div class="card-header">
+					Модальное окно №2
+				</div>
+				<div class="card-body">
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, maiores. Veniam voluptatum accusantium iusto recusandae ipsa quae deleniti officia, eligendi dolorum earum incidunt, amet ratione a! Eaque, perferendis laboriosam deserunt!</p>
+				</div>
+				<button class="btn-dark" data-modal-close type="button">
+					Закрыть модальное
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<div id="modal-3" data-modal class="fade-block hidden">
+		<div class="modal-window">
+			<div class="card">
+				<div class="card-header">
+					Модальное окно №3
+				</div>
+				<div class="card-body">
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, maiores. Veniam voluptatum accusantium iusto recusandae ipsa quae deleniti officia, eligendi dolorum earum incidunt, amet ratione a! Eaque, perferendis laboriosam deserunt!</p>
+				</div>
+				<button class="btn-dark" data-modal-close type="button">
+					Закрыть модальное
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<script src="script4.1.js"></script>
+</body>
+</html>

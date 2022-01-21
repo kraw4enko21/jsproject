@@ -1,0 +1,26 @@
+body{
+	margin-left: 100px;
+}
+h1{
+	margin-top: 20px;
+	font-size: 30px;
+}
+
+.fade-block
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(60, 179, 113,0.6);
+}
+.modal-window{
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%)
+}
+.hidden{
+	display: none;
+}
